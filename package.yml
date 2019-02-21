@@ -4,7 +4,10 @@
 name: PCK.AUTOMIC_CA_PAM
 
 # location of the content source objects (default: ae/content)
-source: ae                 
+source: ae/content
+
+# location of the appdata source objects (default: ae/appdata)
+appdata: ae/appdata                    
  
 ## Binary object resource mapping will be defined like the following:
 # binaries:
