@@ -7,7 +7,26 @@
 <OH_SubType/>
 </HEADER>
 <DOCU_Docu state="1" type="text">
-<DOC/>
+<DOC><![CDATA[About the Package
+CA PAM store the Password and User ID. We can get the Password with the help of Alias
+=Setup=
+* This Action pack supports Windows and UNIX Agent.
+* CA PAM client should be installed on agent OS and should be configure and authenticate with CA PAM server.
+* Oracle JRE 1.7 or higher version should be installed on agent OS.
+* Java executable should be set in the PATH environment variable on agent OS.  
+* To run the action on Windows, Power shell 3.0 or higher version should be installed.
+ 
+
+=Common Inputs=
+CA PAM PATH*: Provide the folder path where CA PAM client is installed. E.g C:\cspm\cloakware
+Alias*:        Provide unique Alias which is define in the PAM sever E.g. test2
+ 
+=Actions=
+Following actions are supported.
+
+* Action name: PCK.AUTOMIC_CA_PAM.PUB.ACTION.GET_CREDENTIAL
+* Action Description: This action is used to retrieve Password with the help of alias from the CA PAM server
+]]></DOC>
 </DOCU_Docu>
 </DOCU>
 </uc-export>
