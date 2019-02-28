@@ -7,8 +7,14 @@
 <OH_SubType/>
 </HEADER>
 <DOCU_Docu state="1" type="text">
-<DOC><![CDATA[About the Package
+<DOC><![CDATA[About CA PAM
+CA Privileged Access Manager is a product that tracks and secures the usage of logins involving access to administrative control or sensitive 
+information. The product uses real-time monitoring, behavioural analytics, session recording and real-time alerts to ensure that credentials are 
+being used by the authorised user and that they are used as they should be according to company policy.
+
+About the Package
 CA PAM store the Password and User ID. We can get the Password with the help of Alias
+
 =Setup=
 * This Action pack supports Windows and UNIX Agent.
 * CA PAM client should be installed on agent OS and should be configure and authenticate with CA PAM server.
@@ -26,6 +32,17 @@ Following actions are supported.
 
 * Action name: PCK.AUTOMIC_CA_PAM.PUB.ACTION.GET_CREDENTIAL
 * Action Description: This action is used to retrieve Password with the help of alias from the CA PAM server
+
+
+ 
+
+
+
+
+
+
+
+
 ]]></DOC>
 </DOCU_Docu>
 </DOCU>
