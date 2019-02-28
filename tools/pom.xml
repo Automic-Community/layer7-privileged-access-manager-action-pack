@@ -28,7 +28,7 @@
 		<dependency>
 			<groupId>capam</groupId>
 			<artifactId>cspmclient</artifactId>
-			<version>1.0</version>
+			<version>3.2</version>
 		</dependency>
 		
 		<dependency>
