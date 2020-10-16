@@ -1,3 +1,0 @@
-*** Variables ***
-#---- AE Actions-------------------------
-${_GET_CREDENTIALS_ACTION}    PCK.AUTOMIC_CA_PAM.PUB.ACTION.GET_CREDENTIAL
