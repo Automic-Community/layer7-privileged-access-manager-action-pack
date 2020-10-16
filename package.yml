@@ -1,0 +1,30 @@
+## Pack Development Configuration
+
+# Pack name for download/upload (e.g. PCK.CUSTOM_FOOBAR)
+name: PCK.AUTOMIC_CA_PAM
+
+# location of the content source objects (default: ae/content)
+source: ae
+                 
+ 
+## Binary object resource mapping will be defined like the following:
+# binaries:
+# - object: RESOURCES/LIBS/PCK.CUSTOM_FOOBAR.PRV.STORE                      # STORE object name that will be created/used as destination (e.g. RESOURCES/LIBS/PCK.CUSTOM_FOOBAR.PRV.STORE)
+#   timestamp: disabled                                                     # could be 'enabled' or 'disabled', default is 'enabled', when this is 'enabled' a timestamp will be added to the end of resource's version when uploading 
+#   resources:                                                              # name/key that will be used to attach the resource from within the AE (e.g. BAR.JAR)
+#   - name: BAR.JAR                                                         # resource's name
+#     type: BINARY                                                          # resource's type, could be BINARY or TEXT, default is BINARY 
+#     path: tools/foo/bar.jar                                               # path to the resource file on local file system (could be absolute path or relative path from this config file)
+#     platform: "*"                                                         # resource's platform, default *
+#     sw: "*"                                                               # resource's SW, default *
+#     hw: "*"                                                               # resource's HW, default *
+#     version: 1.0.0                                                        # resource's version (e.g 1.0.0)
+# binary object resource mapping will be defined here
+binaries:
+  
+  - object: RESOURCES/LIBS/PCK.AUTOMIC_CA_PAM.PRV.STORE
+    resources: 
+      - name: CAPAMTOOL
+        type: BINARY
+        path: tools/target/capam-tool.jar
+        version: 1.0.0

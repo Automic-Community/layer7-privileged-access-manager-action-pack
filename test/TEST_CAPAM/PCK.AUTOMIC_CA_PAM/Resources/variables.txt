@@ -1,0 +1,7 @@
+*** Settings ***
+Resource          ../../../Env/default.txt
+
+*** Variables ***
+#----Get Credentials-------------------------------------------------------------------------------------
+${CAPAM_Path}     C://cspm//cloakware
+${alias}          test12
